@@ -112,13 +112,13 @@ There are four possible simulation settings:
 0-Syndrome batch simulation -> this function takes as input a matrix of syndromes and, for each one, returns the correction applied by the selected decoder. This tool can be useful when designing a circuit simulation. Moreover, this such tool reduces the overhead associated with migrating code from Python to C++ (note that, for each call to C++ all the data structures are allocated and deallocated).
  
 
-In case "3" we are running a Monte Carlo simulation using the function Simulation.MonteCarloSimulation() that returns as output errProb which is an array containing the codeword (or logical) error rates estimated for the input physical error rates. Also the c++ program generates a data/output.txt file with the same information.
+- In case "3" we are running a Monte Carlo simulation using the function Simulation.MonteCarloSimulation() that returns as output errProb which is an array containing the codeword (or logical) error rates estimated for the input physical error rates. Also the c++ program generates a data/output.txt file with the same information.
 
-In case "2" we use the function Simulation.AverageBPIterationsTesting(NumError) that takes as input the number of errors for the simulation, and gives as output NAverageBPIterations, representing the average number of belief propagation iterations required for the decoding.
+- In case "2" we use the function Simulation.AverageBPIterationsTesting(NumError) that takes as input the number of errors for the simulation, and gives as output NAverageBPIterations, representing the average number of belief propagation iterations required for the decoding.
 
-In case "1" we use the function Simulation.ErrorPatternTesting(errorX, errorZ) to test if the error pattern given as input is appropriately corrected by the decoder. The function returns the binary correction applied by the decoder (correctionX, correctionZ) and a FLAG_CORRECTED with value "1" when the pattern is corrected. 
+- In case "1" we use the function Simulation.ErrorPatternTesting(errorX, errorZ) to test if the error pattern given as input is appropriately corrected by the decoder. The function returns the binary correction applied by the decoder (correctionX, correctionZ) and a FLAG_CORRECTED with value "1" when the pattern is corrected. 
 
-In case "0" we use the function Simulation.SyndromeBatchSimulation(syndrome) that takes as input a matrix of syndromes and performs the decoding for each one of them. The function returns the matrices of applied X and Z corrections in binary format for each of the processed syndromes.
+- In case "0" we use the function Simulation.SyndromeBatchSimulation(syndrome) that takes as input a matrix of syndromes and performs the decoding for each one of them. The function returns the matrices of applied X and Z corrections in binary format for each of the processed syndromes.
 
 
 # CITATION
