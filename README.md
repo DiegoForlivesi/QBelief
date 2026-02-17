@@ -124,12 +124,12 @@ There are four possible simulation settings:
 # CITATION
 If you find this software useful consider citing our paper:
 
-@misc{valentini2025restartbeliefgeneralquantum,
-      title={Restart Belief: A General Quantum LDPC Decoder}, 
-      author={Lorenzo Valentini and Diego Forlivesi and Andrea Talarico and Marco Chiani},
-      year={2025},
-      eprint={2511.13281},
-      archivePrefix={arXiv},
-      primaryClass={quant-ph},
+@misc{valentini2025restartbeliefgeneralquantum,\
+      title={Restart Belief: A General Quantum LDPC Decoder}, \
+      author={Lorenzo Valentini and Diego Forlivesi and Andrea Talarico and Marco Chiani,\
+      year={2025},\
+      eprint={2511.13281},\
+      archivePrefix={arXiv},\
+      primaryClass={quant-ph},\
       url={https://arxiv.org/abs/2511.13281}, 
 }
