@@ -1,0 +1,36 @@
+# Citation information for this repository.                         -*- yaml -*-
+#
+# CITATION.cff files provide human- & machine-readable citation information for
+# software and datasets. GitHub, Zenodo, and the Zotero browser plugin all use
+# CFF files automatically if provided. https://citation-file-format.github.io/.
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+cff-version: 1.2.0
+message: "Please cite the following preprint when using this repository."
+title: "Restart Belief: A General Quantum LDPC Decoder"
+authors:
+  - family-names: "Valentini"
+    given-names: "Lorenzo"
+    affiliation: "University of Bologna"
+  - family-names: "Forlivesi"
+    given-names: "Diego"
+    affiliation: "University of Bologna"
+  - family-names: "Talarico"
+    given-names: "Andrea"
+    affiliation: "University of Bologna"
+  - family-names: "Chiani"
+    given-names: "Marco"
+    affiliation: "University of Bologna"
+date-released: "2025-11-17"
+version: "1.0.0"
+
+identifiers:
+  - type: arXiv
+    value: "arXiv:2511.13281"
+
+url: "https://arxiv.org/abs/2511.13281"
+
+abstract: >
+  Hardware-friendly quantum low-density parity-check (QLDPC) decoders are commonly built upon belief propagation (BP) processing. Yet, quantum degeneracy often prevents BP from achieving reliable convergence. To overcome this fundamental limitation, we propose the restart belief (RB) decoder, an iterative BP-based algorithm inspired by branch-and-bound optimization principles. From our analysis we find that the RB decoder represents both the fastest and most accurate decoding algorithm applicable to QLDPC codes to date, conceived with the explicit goal of approaching error correction up to the code distance. 
+

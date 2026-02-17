@@ -1,0 +1,29 @@
+//                           QBelief V1.0                           //
+
+>> QUANTUM_CODE
+	GENERATOR_FILEPATH: data/MatrixGen/[[144,12,12]]_grossCode.txt
+
+>> DECODER
+	DECODER_TYPE: RestartBelief
+
+>> MONTECARLO
+	nIterationMax: 10000
+	maxErr: 100
+	errorRate: CER
+
+>> BELIEF PROPAGATION
+	nIterFirstBelief: 50
+	nIterOtherBelief: 10
+	alpha: -1
+	eta: 35
+	lambdaOSD: 10
+	orderOSD: 2
+	legRelayBP: 301
+	SRelayBP: 5
+	GammaWidth: 0.66
+	GammaCenter: -0.24
+>> CHANNEL
+	nInputParam: 2
+	chanDepo: 0.01 0.005 EndParams
+
+>> EOF
