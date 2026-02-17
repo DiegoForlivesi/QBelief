@@ -124,7 +124,7 @@ There are four possible simulation settings:
 # CITATION
 If you find this software useful consider citing our paper:
 
-@misc{valentini2025restartbeliefgeneralquantum,\
+@article{ValForTalChi25:QBelief,\
       title={Restart Belief: A General Quantum LDPC Decoder}, \
       author={Lorenzo Valentini and Diego Forlivesi and Andrea Talarico and Marco Chiani,\
       year={2025},\
