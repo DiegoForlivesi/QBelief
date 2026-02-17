@@ -1,4 +1,4 @@
-#### INFO FOR SETUP MAC ####
+# INFO FOR SETUP MAC
 Open the terminal on the folder containing run.py
 Requirement to start the following command
 - Python 3.13
@@ -10,17 +10,17 @@ xcode-slect --install
 
 After the installation close terminal and reopen it
 
-# creating a virtual environment if needed
+## creating a virtual environment if needed
 sudo python3 -m venv MyEnv
 source MyEnv/bin/activate
  
-# building project
+## building project
 sudo pip install -e .
 
-# To test if the installation has been successful try running the project
+## To test if the installation has been successful try running the project
 python3 run.py
 
-#### INFO FOR SETUP WINDOWS ####
+# INFO FOR SETUP WINDOWS
 Open the powershell terminal on the folder containing run.py
 Requirement to start the following command
 - Python 3.13
@@ -41,20 +41,20 @@ C++ CMake tools for Windows
 
 After the installation close powershell and reopen it
 
-# creating a virtual environment if needed
+## creating a virtual environment if needed
 python -m venv MyEnv
 MyEnv/Scripts/activate.ps1
  
-# building project
+## building project
 pip install -e .
 
-# To test if the installation has been successful try running the project
+## To test if the installation has been successful try running the project
 python run.py
 
-#### EXECUTE ####
+# EXECUTE
 You can now open the run.py file into Visual Studio Code (or your preferred editor), select the environment we have just created (MyEnv), and modify the parameters inside run.py to run your experiments.
 
-#### INFO SIMULATION PARAMETERS ####
+# INFO SIMULATION PARAMETERS
 
 generatorFilepath -> string corresponding to the path of the code chosen for the simulation
 
@@ -99,7 +99,7 @@ GammaWidth -> gamma width for "RelayBP" decoder
 GammaCenter -> gamma center for "RelayBP" decoder 
 
 
-#### TUTORIAL ####
+# TUTORIAL
 
 In the Additionalfunctions.py, the function create_quantum_input_file(inputPath, generatorFilepath, decoderType, nIterationMax, maxErr, errorRate, nIterFirstBelief, alpha, eta, nIterOtherBelief, lambdaOSD, orderOSD, legRelayBP, SRelayBP, GammaWidth, GammaCenter, chanDepo) is used to create the input file.txt with the desired parameters for the simulation.
 
@@ -121,7 +121,7 @@ In case "1" we use the function Simulation.ErrorPatternTesting(errorX, errorZ) t
 In case "0" we use the function Simulation.SyndromeBatchSimulation(syndrome) that takes as input a matrix of syndromes and performs the decoding for each one of them. The function returns the matrices of applied X and Z corrections in binary format for each of the processed syndromes.
 
 
-#### CITATION ####
+# CITATION
 If you find this software useful consider citing our paper:
 
 @misc{valentini2025restartbeliefgeneralquantum,
