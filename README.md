@@ -131,5 +131,5 @@ If you find this software useful consider citing our paper:
       eprint={2511.13281},\
       archivePrefix={arXiv},\
       primaryClass={quant-ph},\
-      url={https://arxiv.org/abs/2511.13281}, 
+      url={[https://arxiv.org/abs/2511.13281](https://arxiv.org/abs/2511.13281)}, 
 }
