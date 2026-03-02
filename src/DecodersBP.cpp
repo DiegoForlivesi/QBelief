@@ -465,6 +465,7 @@ void DecoderSimulation::simulateErrorPatternTesting(std::vector<int>& errVectXPr
     int countErr;
 
     initBP();
+	FindLogicalOperators();
 
     for (int i = 0; i < m_nGenX; ++i) {
         m_syndromes[i] = 0;
