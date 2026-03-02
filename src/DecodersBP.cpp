@@ -751,10 +751,10 @@ void DecoderSimulation::secondAllocation(void) {
     m_HsInvGenX.resize(m_rankGenX, std::vector<int>(m_rankGenX, 0));
     m_HtGenX.resize(m_rankGenX, std::vector<int>(m_nCode - m_rankGenX, 0));
     m_HsInvtGenX.resize(m_rankGenX, std::vector<int>(m_nCode - m_rankGenX, 0));
-    m_HsGenZ.resize(m_rankGenX);
-    m_HsInvGenZ.resize(m_rankGenX, std::vector<int>(m_rankGenX, 0));
-    m_HtGenZ.resize(m_rankGenX, std::vector<int>(m_nCode - m_rankGenX, 0));
-    m_HsInvtGenZ.resize(m_rankGenX, std::vector<int>(m_nCode - m_rankGenX, 0));
+    m_HsGenZ.resize(m_rankGenZ);
+    m_HsInvGenZ.resize(m_rankGenZ, std::vector<int>(m_rankGenZ, 0));
+    m_HtGenZ.resize(m_rankGenZ, std::vector<int>(m_nCode - m_rankGenZ, 0));
+    m_HsInvtGenZ.resize(m_rankGenZ, std::vector<int>(m_nCode - m_rankGenZ, 0));
 
     // utility functions
     m_G1.resize(m_nCode - m_kCode, std::vector<int>(m_nCode, 0)); // Parity check X matrix
