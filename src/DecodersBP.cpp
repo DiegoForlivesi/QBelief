@@ -1775,7 +1775,7 @@ void DecoderSimulation::errorCorrectionRestartBelief(int idxP) {
             for (IdxFirstBP = 0; IdxFirstBP < std::min(m_nCode, m_eta); IdxFirstBP++) {
                 std::fill(m_LLRin.begin(), m_LLRin.end(), log((1 - m_initErrProb[idxP] * 2 / 3) / (m_initErrProb[idxP] * 2 / 3))); // LLR input
                 m_LLRin[m_indicesUpToNcode[IdxFirstBP]] = std::numeric_limits<double>::max(); // Set a very high value to the qubit with the lowest P1 value to avoid that it flips again]
-                for (CountBP = 0; CountBP < m_tCode - 1; CountBP++) {
+                for (CountBP = 0; CountBP < m_tCode; CountBP++) {
 
                     for (int i = 0; i < m_nGenZ; i++) {
                         m_syndromes[i + m_nGenX] = 0;
