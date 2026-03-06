@@ -473,6 +473,7 @@ void DecoderSimulation::simulateErrorPatternTesting(std::vector<int>& errVectXPr
             m_syndromes[i] += m_parityCheck[i][j] * m_errVectZ[j];
         }
         m_syndromes[i] = m_syndromes[i] % 2;
+        m_initialSyndrome[i] = m_syndromes[i];
     }
     for (int i = 0; i < m_nGenZ; ++i) {
         m_syndromes[i + m_nGenX] = 0;
@@ -480,6 +481,7 @@ void DecoderSimulation::simulateErrorPatternTesting(std::vector<int>& errVectXPr
             m_syndromes[i + m_nGenX] += m_parityCheck[i + m_nGenX][j] * m_errVectX[j];
         }
         m_syndromes[i + m_nGenX] = m_syndromes[i + m_nGenX] % 2;
+        m_initialSyndrome[i + m_nGenX] = m_syndromes[i + m_nGenX];
     }
 
     countErr = 0;
