@@ -370,7 +370,6 @@ void DecoderSimulation::simulateAverageBPIterationsTesting(int NumError) {
         m_flagErrorDetected = 0;
         for (int i = 0; i < m_nCode; ++i) {
             m_errVectX[i] = 0;
-            m_errVectXCopy[i] = 0;
         }
         std::uniform_real_distribution<double> errDist;
         errDist = std::uniform_real_distribution<double>(0, m_nCode);
