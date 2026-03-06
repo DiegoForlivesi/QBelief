@@ -394,6 +394,7 @@ void DecoderSimulation::simulateAverageBPIterationsTesting(int NumError) {
                 m_syndromes[i + m_nGenX] += m_parityCheck[i + m_nGenX][j] * m_errVectX[j];
             }
             m_syndromes[i + m_nGenX] = m_syndromes[i + m_nGenX] % 2;
+        	m_initialSyndrome[i + m_nGenX] = m_syndromes[i + m_nGenX];
         }
         
         if (decType == DecoderType::BP) {
