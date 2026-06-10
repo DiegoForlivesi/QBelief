@@ -124,12 +124,13 @@ There are four possible simulation settings:
 # CITATION
 If you find this software useful consider citing our paper:
 
-@article{ValForTalChi25:QBelief,\
-      title={Restart Belief: A General Quantum LDPC Decoder}, \
-      author={Lorenzo Valentini and Diego Forlivesi and Andrea Talarico and Marco Chiani,\
-      year={2025},\
-      eprint={2511.13281},\
-      archivePrefix={arXiv},\
-      primaryClass={quant-ph},\
+@ARTICLE{ValForTalChi25:QBelief,\
+      author={Valentini, Lorenzo and Forlivesi, Diego and Talarico, Andrea and Chiani, Marco},\
+      journal={IEEE Communications Letters},\
+      title={Restart Belief: A General Quantum {LDPC} Decoder},\
+      year={2026},\
+      volume={30},\
+      pages={1185-1189},\
+      doi={10.1109/LCOMM.2026.3666352},\
       url={[https://arxiv.org/abs/2511.13281](https://arxiv.org/abs/2511.13281)}, 
 }
