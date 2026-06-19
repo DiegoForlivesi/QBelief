@@ -12,6 +12,7 @@ After the installation close terminal and reopen it
 
 ## creating a virtual environment if needed
 sudo python3 -m venv MyEnv
+
 source MyEnv/bin/activate
  
 ## building project
@@ -43,6 +44,7 @@ After the installation close powershell and reopen it
 
 ## creating a virtual environment if needed
 python -m venv MyEnv
+
 MyEnv/Scripts/activate.ps1
  
 ## building project
