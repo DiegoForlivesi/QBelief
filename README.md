@@ -12,6 +12,7 @@ After the installation close terminal and reopen it
 
 ## creating a virtual environment if needed
 sudo python3 -m venv MyEnv
+
 source MyEnv/bin/activate
  
 ## building project
